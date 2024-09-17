@@ -3,3 +3,286 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: "Work Sans", system-ui;
+}
+
+/* header section start */
+
+header{
+    background-color:rgb(255, 244, 230);
+    padding: 50px 240px;
+}
+
+header > nav{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+header > nav > ul{
+    display: flex;
+    gap: 40px;
+}
+
+header > nav > ul > li{
+    list-style: none;
+}
+
+.header-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+    margin-top: 100px;
+}
+
+.header-text > h1{
+    text-align: center;
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.header-text > p{
+    text-align: center;
+    max-width: 860px;
+    color: #727272;
+}
+
+.header-text > button{
+    background-color: #FF900E;
+    text-align: center;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 20px 25px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+header > img{
+    margin-top: 50px;
+}
+
+/* header section end  */
+
+/* main section start */
+
+main{
+    padding: 50px 240px;
+}
+
+.one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 75px;
+}
+
+.one > .img-gal{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.one > .text-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 24px;
+}
+
+.one > .text-btn > h1{
+    font-size: 45px;
+    font-weight: 700;
+    max-width: 460px;
+
+}
+
+.one > .text-btn > h1 > .ash{
+    color: #727272;
+}
+
+.one > .text-btn > h1 > .yel{
+    color: #FF900E;
+}
+
+.one > .text-btn > p {
+    color: #727272;
+    max-width: 560px;
+}
+
+.one > .text-btn > button{
+    background-color: #FF900E;
+    text-align: center;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 20px 25px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* ------------------------ */
+
+.two{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.two > .text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.two > .text > h1{
+    font-size: 45px;
+    font-weight: 700;
+    border-left: 5px solid orange;
+    padding: 0 0 0 20px;
+    max-width: 460px;
+}
+
+.two > .text > p {
+    color: #727272;
+    max-width: 580px;
+}
+
+.two > .text > .card {
+    width: 580px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    background: rgb(255, 255, 255);
+    padding: 30px 40px;
+}
+
+.two > .text > .card > h1{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.two > .text > .card > p{
+    color: #727272;
+    margin-top: 10px;
+}
+
+.two > .img{
+    position: relative;
+}
+
+.two > .img > .sill{
+    background-color: #FF900E;
+    width: 340px;
+    padding: 40px;
+    text-align: center;
+    border-radius: 5px;
+    position: absolute;
+    bottom: -50px;
+    left: -50px;
+}
+.two > .img > .sill > h1{
+    font-weight: 700;
+    font-size: 60px;
+    color: white;
+}
+.two > .img > .sill > p{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* ---------------------- */
+
+.three {
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;   
+    align-items: center;
+}
+
+.three > .text > h1{
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.three > .text > p {
+    color: #727272;
+    max-width: 540px;
+    text-align: center;
+    
+}
+
+.three > .card-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.three > .card-container > .card {
+    padding: 45px 35px;
+    border: 1px solid orange;
+    border-radius: 5px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+/* ------------------------ */
+
+.four {
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;   
+    align-items: center;
+}
+
+.four > .text > h1{
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.four > .text > p {
+    color: #727272;
+    max-width: 540px;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+.four > .img {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+/* main section end  */
+
+/* footer section start */
+
+footer{
+    padding: 50px 240px;
+}
+
+footer > h1{
+    background-color: #FFF4E7;
+    font-size: 20px;
+    text-align: center;
+    padding: 40px;
+    border-radius: 10px;
+    color: #424242;
+}
+
+/* footer section end  */
